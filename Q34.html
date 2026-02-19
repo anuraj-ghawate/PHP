@@ -1,0 +1,49 @@
+<html>
+    <body>
+        <h2>Job Application Form</h2>
+        <form method="GET" action="Q34.php">
+            Enter Your Name:
+            <input type="text" name="name">
+            <br><br>
+            Enter Email:
+            <input type="email" name="email">
+            <br><br>
+            Select Job Type:
+            <br><br>
+            <input type="radio" name="jobtype" value="fulltime">
+            Full Time
+
+            <input type="radio" name="jobtype" value="parttime">
+            Part Time
+
+            <input type="radio" name="jobtype" value="internship">
+            Internship
+            <br><br>
+            Skills:<br><br>
+            Java
+            <input type="checkbox" name="skills[]" value="java"> 
+            Python
+            <input type="checkbox" name="skills[]" value="python">
+            CPP
+            <input type="checkbox" name="skills[]" value="cpp">
+            R
+            <input type="checkbox" name="skills[]" value="r">
+            <br><br>
+            
+            Select Location:
+            <select name="location">
+                <option value="">Select</option>
+                <option value="pune">Pune</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="banglore">Banglore</option>
+                <option value="hydrabad">Hydrabad</option>
+            </select>
+            <br><br>
+            Additional Information:
+            <textarea name="info" rows="4" cols="35"></textarea>
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
